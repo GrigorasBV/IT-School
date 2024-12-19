@@ -82,15 +82,62 @@ int main()
 }
 class Move {
 private:
-    int* data; //raw pointer
+    int* data;      //raw pointer
 public:
-    void set_data_value(int d) { *data = d }
-    int get_data_value() { return *data; }
+    void set_data_value(int d) { data = d; }
+    int get_data_value() { return data; }
     Move(int d);
     Move(const Move& source);
+    Move(Move&& source) noexcept;
     ~Move();
 };
-Move::Move(const Move& source) {
-    data = *new int;
-    *data = *source.data;
+
+Move::Move(int d) {
+    data = new int;
+    data = d;
+    cout << "constructor pentru: " << d << endl;
+}
+
+//copy constructor
+Move::Move(const Move& source)
+    :Move(source.data) {
+    cout << "copy constructor - deep copy for: " << data << endl;
+}
+
+
+//Move constructor
+Move::Move(Move&& source)noexcept
+    :data{ source.data } {
+    source.data = nullptr;
+    cout << "Move constructor -move resource" << data << endl;
+}
+
+Move::~Move() {
+    if (data != nullptr) {
+        cout << "destructor free data for: " << *data << endl;
+    }
+    else {
+        cout << "destructor free data for nullpt " << endl;
+    }
+    delete data;
+}
+
+
+int main()
+{
+    vector<Move> vec;
+    vec.push_back(Move{ 10 });
+
+    vec.push_back(Move{ 20 });
+    vec.push_back(Move{ 30 });
+    vec.push_back(Move{ 40 });
+    vec.push_back(Move{ 50 });
+    vec.push_back(Move{ 60 });
+    vec.push_back(Move{ 70 });
+    vec.push_back(Move{ 80 });
+    vec.push_back(Move{ 90 });
+    vec.push_back(Move{ 100 });
+    vec.push_back(Move{ 1000 });
+
+    return 0;
 }
