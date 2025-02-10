@@ -1,0 +1,164 @@
+//============================================================================EXERCITIUL 1==================================================================================================
+
+/*#include <iostream>
+#include <string>
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+
+class Friend;
+
+class Cutie {
+
+public:
+
+	int latime;
+
+	int lungime;
+
+	int inaltime;
+
+	Cutie(int l, int l1, int in) :lungime(l), latime(l1), inaltime(in) {
+
+
+	}
+
+	void Introducere_Date() {
+
+		cout << "Lungime:";
+
+		cin >> lungime;
+
+		cout << "Latime:";
+
+		cin >> latime;
+
+		cout << "Inaltime:";
+
+		cin >> inaltime;
+
+
+	}
+
+	void Afisare() {
+
+		cout << "Lungime:" << lungime << endl;
+
+		cout << "Latime:" << latime << endl;
+
+		cout << "Inaltime:" << inaltime << endl;
+
+	}
+};
+
+class Friend {
+
+	friend class Cutie;
+
+public:
+
+	int Calculeaza_Volum(Cutie c) {
+
+		return c.lungime * c.latime * c.inaltime;
+
+	}
+
+	void Afisare(Cutie c)
+	{
+
+		cout << "Volumul cutiei este:" << Calculeaza_Volum(c) << endl;
+
+	}
+
+	void Modificare_Date(Cutie& c) {
+
+		c.Introducere_Date();
+
+	}
+
+};
+
+int main() {
+
+	Cutie mica(4, 6, 8);
+
+	Friend f;
+
+	f.Afisare(mica);
+
+	f.Modificare_Date(mica);
+
+	f.Calculeaza_Volum(mica);
+
+	return 0;
+}*/
+
+//============================================================================EXERCITIUL 2==================================================================================================
+
+#include <iostream>
+#include <string>
+#include <vector>
+
+using namespace std;
+
+class Persoana {
+
+private:
+
+	string name;
+
+	int age;
+
+public:
+
+	Persoana(string n, int a) : name(n), age(a) {
+
+
+	}
+
+	void Afisare() {
+
+		cout << "Numele angajatului este:" << name << endl;
+
+		cout << "Varsta angajatului este de:" << age << " " << "ani" << endl;
+
+	}
+};
+
+class Angajat :public Persoana {
+
+private:
+
+	string functie;
+
+	string nume_job;
+
+public:
+
+	Angajat(string n, int a, string f, string j) :Persoana(n, a), functie(f), nume_job(j) {
+
+	}
+
+	void Afisare_Angajat() {
+
+		cout << "Functia ocupata de angajat este:" << functie << endl;
+
+		cout << "Numele jobului pe care il are angajatul este:" << nume_job << endl;
+
+	}
+
+};
+
+int main() {
+
+	Persoana Myobj("Mircea", 19);
+
+	Myobj.Afisare();
+
+	Angajat MyObj2("Mircea", 19, "Inginer", "Electrician");
+
+	MyObj2.Afisare_Angajat();
+
+	return 0;
+}
