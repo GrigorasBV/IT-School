@@ -1,0 +1,83 @@
+object MyRegistrationForm: TMyRegistrationForm
+  Left = 0
+  Top = 0
+  Caption = 'Inregistrare'
+  ClientHeight = 240
+  ClientWidth = 320
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  OnShow = FormShow
+  object nameEdit: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 3
+    Position.X = 176.000000000000000000
+    Position.Y = 19.000000000000000000
+    Size.Width = 225.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object ageEdit: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 2
+    Position.X = 176.000000000000000000
+    Position.Y = 62.000000000000000000
+    Size.Width = 225.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object usernameEdit: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 1
+    Position.X = 176.000000000000000000
+    Position.Y = 109.000000000000000000
+    Size.Width = 225.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object passwordEdit: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 0
+    Position.X = 176.000000000000000000
+    Position.Y = 152.000000000000000000
+    Size.Width = 225.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Label1: TLabel
+    Position.X = 16.000000000000000000
+    Position.Y = 16.000000000000000000
+    Text = 'Nume'
+    TabOrder = 0
+  end
+  object Label2: TLabel
+    Position.X = 16.000000000000000000
+    Position.Y = 64.000000000000000000
+    Text = 'Varsta'
+    TabOrder = 1
+  end
+  object Label3: TLabel
+    Position.X = 16.000000000000000000
+    Position.Y = 112.000000000000000000
+    Text = 'Nume utilizator'
+    TabOrder = 2
+  end
+  object Label4: TLabel
+    Position.X = 16.000000000000000000
+    Position.Y = 157.000000000000000000
+    Text = 'Parola'
+    TabOrder = 4
+  end
+  object SaveButton: TButton
+    Position.X = 176.000000000000000000
+    Position.Y = 200.000000000000000000
+    Size.Width = 129.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 8
+    Text = 'Salveaza'
+    TextSettings.Trimming = None
+    OnClick = SaveButtonClick
+  end
+end

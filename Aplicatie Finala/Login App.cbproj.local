@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2025/04/24 19:06:01.000.311,=C:\Users\Grigo\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2025/04/24 19:06:01.000.925,=C:\Users\Grigo\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2025/04/25 16:31:01.000.126,=C:\Users\Grigo\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2025/04/25 16:31:01.000.695,=C:\Users\Grigo\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2025/04/25 16:32:40.000.965,=C:\Users\Grigo\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2025/04/25 16:32:40.000.413,=C:\Users\Grigo\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2025/04/25 16:33:05.000.432,C:\Users\Grigo\Documents\Embarcadero\Studio\Projects\Unit1.cpp=D:\Proiecte C++\LoginApp\Unit1.cpp</Transaction>
+    <Transaction>2025/04/25 16:33:05.000.432,C:\Users\Grigo\Documents\Embarcadero\Studio\Projects\Unit1.fmx=D:\Proiecte C++\LoginApp\Unit1.fmx</Transaction>
+    <Transaction>2025/04/25 16:33:05.000.432,C:\Users\Grigo\Documents\Embarcadero\Studio\Projects\Unit1.h=D:\Proiecte C++\LoginApp\Unit1.h</Transaction>
+    <Transaction>2025/04/25 16:39:01.000.317,D:\Proiecte C++\LoginApp\Unit1.cpp=D:\Proiecte C++\LoginApp\MainForm.cpp</Transaction>
+    <Transaction>2025/04/25 16:39:01.000.317,D:\Proiecte C++\LoginApp\Unit1.h=D:\Proiecte C++\LoginApp\MainForm.h</Transaction>
+    <Transaction>2025/04/25 16:39:01.000.317,D:\Proiecte C++\LoginApp\Unit1.fmx=D:\Proiecte C++\LoginApp\MainForm.fmx</Transaction>
+    <Transaction>2025/04/25 16:39:45.000.091,=C:\Users\Grigo\Documents\Embarcadero\Studio\Projects\Unit2.cpp</Transaction>
+    <Transaction>2025/04/25 16:39:54.000.918,C:\Users\Grigo\Documents\Embarcadero\Studio\Projects\Unit2.h=C:\Users\Grigo\Documents\Embarcadero\Studio\Projects\LoginForm.h</Transaction>
+    <Transaction>2025/04/25 16:39:54.000.918,C:\Users\Grigo\Documents\Embarcadero\Studio\Projects\Unit2.cpp=C:\Users\Grigo\Documents\Embarcadero\Studio\Projects\LoginForm.cpp</Transaction>
+    <Transaction>2025/04/25 16:39:54.000.918,C:\Users\Grigo\Documents\Embarcadero\Studio\Projects\Unit2.fmx=C:\Users\Grigo\Documents\Embarcadero\Studio\Projects\LoginForm.fmx</Transaction>
+    <Transaction>2025/04/25 16:40:05.000.074,=C:\Users\Grigo\Documents\Embarcadero\Studio\Projects\Unit3.cpp</Transaction>
+    <Transaction>2025/04/25 16:40:20.000.436,C:\Users\Grigo\Documents\Embarcadero\Studio\Projects\Unit3.fmx=C:\Users\Grigo\Documents\Embarcadero\Studio\Projects\RegistrationForm.fmx</Transaction>
+    <Transaction>2025/04/25 16:40:20.000.436,C:\Users\Grigo\Documents\Embarcadero\Studio\Projects\Unit3.h=C:\Users\Grigo\Documents\Embarcadero\Studio\Projects\RegistrationForm.h</Transaction>
+    <Transaction>2025/04/25 16:40:20.000.436,C:\Users\Grigo\Documents\Embarcadero\Studio\Projects\Unit3.cpp=C:\Users\Grigo\Documents\Embarcadero\Studio\Projects\RegistrationForm.cpp</Transaction>
+    <Transaction>2025/04/25 20:16:19.000.177,C:\Users\Grigo\Documents\Embarcadero\Studio\Projects\RegistrationForm.fmx=D:\Proiecte C++\LoginApp\RegistrationForm.fmx</Transaction>
+    <Transaction>2025/04/25 20:16:19.000.098,C:\Users\Grigo\Documents\Embarcadero\Studio\Projects\Project1PCH1.h=D:\Proiecte C++\LoginApp\Login AppPCH1.h</Transaction>
+    <Transaction>2025/04/25 20:16:19.000.122,C:\Users\Grigo\Documents\Embarcadero\Studio\Projects\LoginForm.fmx=D:\Proiecte C++\LoginApp\LoginForm.fmx</Transaction>
+    <Transaction>2025/04/25 20:16:19.000.177,C:\Users\Grigo\Documents\Embarcadero\Studio\Projects\RegistrationForm.cpp=D:\Proiecte C++\LoginApp\RegistrationForm.cpp</Transaction>
+    <Transaction>2025/04/25 20:16:19.000.193,C:\Users\Grigo\Documents\Embarcadero\Studio\Projects\Project1.cbproj=D:\Proiecte C++\LoginApp\Login App.cbproj</Transaction>
+    <Transaction>2025/04/25 20:16:19.000.122,C:\Users\Grigo\Documents\Embarcadero\Studio\Projects\LoginForm.h=D:\Proiecte C++\LoginApp\LoginForm.h</Transaction>
+    <Transaction>2025/04/25 20:16:19.000.122,C:\Users\Grigo\Documents\Embarcadero\Studio\Projects\LoginForm.cpp=D:\Proiecte C++\LoginApp\LoginForm.cpp</Transaction>
+    <Transaction>2025/04/25 20:16:19.000.177,C:\Users\Grigo\Documents\Embarcadero\Studio\Projects\RegistrationForm.h=D:\Proiecte C++\LoginApp\RegistrationForm.h</Transaction>
+  </Transactions>
+</BorlandProject>

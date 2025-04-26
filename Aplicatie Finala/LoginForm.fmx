@@ -1,0 +1,58 @@
+object MyLoginForm: TMyLoginForm
+  Left = 0
+  Top = 0
+  Caption = 'Autentificare'
+  ClientHeight = 165
+  ClientWidth = 445
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  OnShow = FormShow
+  object Label1: TLabel
+    Position.X = 80.000000000000000000
+    Position.Y = 45.000000000000000000
+    Text = 'Nume utilizator'
+    TabOrder = 2
+  end
+  object usernameEdit: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 3
+    Position.X = 232.000000000000000000
+    Position.Y = 45.000000000000000000
+    Size.Width = 193.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Label2: TLabel
+    Position.X = 80.000000000000000000
+    Position.Y = 85.000000000000000000
+    Text = 'Parola'
+    TabOrder = 0
+  end
+  object passwordEdit: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 1
+    Position.X = 232.000000000000000000
+    Position.Y = 85.000000000000000000
+    Size.Width = 193.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object loginButton: TButton
+    Position.X = 264.000000000000000000
+    Position.Y = 128.000000000000000000
+    Size.Width = 161.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    Text = 'Autentificare'
+    TextSettings.Trimming = None
+    OnClick = loginButtonClick
+  end
+  object messageLabel: TLabel
+    Position.X = 72.000000000000000000
+    Position.Y = 136.000000000000000000
+    TabOrder = 6
+  end
+end

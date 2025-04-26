@@ -34,7 +34,7 @@ int main()
 
 	return 0;
 }*/
-
+/*
 class myClass {
 public:
 	myClass() { cout << "Constructor" << endl; }
@@ -70,5 +70,21 @@ int main() {
 		cout << "lokedPTR este invalid" << endl;
 
 	}
+	return 0;
+}*/
+
+
+ long long  n=1;
+
+
+int main() {
+	
+	for (int i = 1; i <= 100; i++) {
+		n = n * i;
+		cout <<"i= "<<i<<" n= " << n << endl;
+	}
+
+
+	cout << n << endl;
 	return 0;
 }
